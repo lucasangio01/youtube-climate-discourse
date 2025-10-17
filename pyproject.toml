@@ -9,7 +9,9 @@ dependencies = [
     "google-api>=0.1.12",
     "google-api-python-client>=2.184.0",
     "jupyter>=1.1.1",
+    "nltk>=3.9.2",
     "pandas>=2.3.3",
     "praw>=7.8.1",
+    "spacy>=3.8.7",
     "youtube-transcript-api>=1.2.3",
 ]
