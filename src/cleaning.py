@@ -8,6 +8,7 @@ class PreprocessText:
     def __init__(self):
         self.punctuation_model = PunctuationModel()
         self.embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
+        self.videos_original = pd.read_csv("../data/videos_original.csv")
         self.chunk_size = 250
         self.climate_concepts = ["climate change", "global warming", "carbon emissions", "green energy policies", "fossil fuel industry", "climate activism", "environmental regulation", "climate policy debate", "renewable energy transition", "carbon tax"]
         self.climate_columns = ["clim_change", "glob_warm", "carb_emis", "green_en_policies", "fos_fu_ind", "clim_activ", "env_regul", "clim_polic_debate", "renew_en_trans", "carb_tax"]
@@ -19,16 +20,16 @@ class PreprocessText:
     def create_punctuation(self, text):
         return self.punctuation_model.restore_punctuation(text)
 
-    def apply_chunking(self, videos_original):
-        videos_chunked = (videos_original.assign(chunks=videos_original["transcript"].apply(lambda text: self.split_into_chunks(text))).explode("chunks", ignore_index=True)).drop(columns = ["transcript"])
-        videos_chunked = videos_chunked.to_csv("../data/videos_chunked.csv", index = False)
+    def apply_chunking(self):
+        videos_chunked = (self.videos_original.assign(chunks=self.videos_original["transcript"].apply(lambda text: self.split_into_chunks(text))).explode("chunks", ignore_index=True)).drop(columns = ["transcript"])
+        videos_chunked.to_csv("../data/videos_chunked.csv", index = False)
         return videos_chunked
 
     def apply_punctuation(self, videos_chunked):
         videos_punctuation = videos_chunked.copy()
         videos_punctuation["chunks_punctuation"] = videos_punctuation["chunks"].apply(self.create_punctuation)
         videos_punctuation = videos_punctuation.drop(columns=["chunks"])
-        videos_punctuation = videos_punctuation.to_csv("../data/videos_punctuation.csv", index = False)
+        videos_punctuation.to_csv("../data/videos_punctuation.csv", index = False)
         return videos_punctuation
 
     def compute_similarity(self, videos_punctuation):
@@ -38,10 +39,23 @@ class PreprocessText:
         similarities_T = list(map(list, zip(*similarities)))
         similarities_T_rounded = [np.round(x, 3) for x in similarities_T]
 
-        videos_similarity = videos_punctuation.copy()
-        videos_similarity_full = pd.DataFrame(similarities_T_rounded, columns=self.climate_columns, index=videos_similarity.index)
+        videos_punctuation_copy = videos_punctuation.copy()
+        videos_similarity_raw = pd.DataFrame(similarities_T_rounded, columns=self.climate_columns, index=videos_punctuation_copy.index)
 
-        concat_df = pd.concat([videos_similarity, videos_similarity_full], axis=1).drop(["chunks_punctuation"], axis = 1)
-        concat_df.to_csv("videos_similarity.csv", index=False)
+        videos_similarity = pd.concat([videos_punctuation_copy, videos_similarity_raw], axis=1).drop(["chunks_punctuation"], axis = 1)
+        videos_similarity.to_csv("../data/videos_similarity.csv", index=False)
 
-        return concat_df
+        return videos_similarity
+
+    def filter_similarity(self, videos_similarity):
+        videos_filtered = videos_similarity.copy()
+        videos_filtered["counter_>_0.4"] = (videos_filtered.iloc[:, 3:] > 0.4).sum(axis=1)
+        videos_filtered.to_csv("../data/videos_filtered.csv")
+        return videos_filtered
+
+    def run_pipeline(self):
+        first_chunk = self.apply_chunking()
+        second_addpunctuation = self.apply_punctuation(first_chunk)
+        third_computesimilarity = self.compute_similarity(second_addpunctuation)
+        fourth_filter = self.filter_similarity(third_computesimilarity)
+        return fourth_filter
