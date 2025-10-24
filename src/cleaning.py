@@ -12,6 +12,9 @@ class PreprocessText:
         self.chunk_size = 250
         self.climate_concepts = ["climate change", "global warming", "carbon emissions", "green energy policies", "fossil fuel industry", "climate activism", "environmental regulation", "climate policy debate", "renewable energy transition", "carbon tax"]
         self.climate_columns = ["clim_change", "glob_warm", "carb_emis", "green_en_policies", "fos_fu_ind", "clim_activ", "env_regul", "clim_polic_debate", "renew_en_trans", "carb_tax"]
+        self.rogressive_speakers = ["Secular Talk", "David Pakman", "Democrat politicians"]
+        self.conservative_speakers = ["Candace Owens", "Ben Shapiro", "Charlie Kirk", "Vivek Ramaswamy", "John Coleman", "Joe Rogan", "Dan Pena", "Republican politicians", "Donald Trump", "Fox News"]
+
 
     def split_into_chunks(self, text):
         words = text.split()
@@ -22,7 +25,7 @@ class PreprocessText:
 
     def apply_chunking(self):
         videos_chunked = (self.videos_original.assign(chunks=self.videos_original["transcript"].apply(lambda text: self.split_into_chunks(text))).explode("chunks", ignore_index=True)).drop(columns = ["transcript"])
-        videos_chunked.to_csv("../data/videos_chunked.csv", index = False)
+        videos_chunked = videos_chunked.to_csv("../data/videos_chunked.csv", index = False)
         return videos_chunked
 
     def apply_punctuation(self, videos_chunked):
@@ -58,4 +61,3 @@ class PreprocessText:
         second_addpunctuation = self.apply_punctuation(first_chunk)
         third_computesimilarity = self.compute_similarity(second_addpunctuation)
         fourth_filter = self.filter_similarity(third_computesimilarity)
-        return fourth_filter
