@@ -1,5 +1,5 @@
 import pandas as pd
-from transformers import pipeline
+from transformers import pipeline, AutoTokenizer, AutoModel
 
 class ZeroShotStance:
     def __init__(self):
