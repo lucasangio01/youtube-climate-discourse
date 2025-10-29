@@ -25,6 +25,22 @@ class CreateEmbeddings:
         self.df = self.df.rename(columns = {"zeroshot_label_believes climate change is exaggerated": "believes_exaggeration"})
         self.df.to_csv("../data/videos_embedded.csv", index = False)
 
+class CreateEmbeddings:
+    def __init__(self):
+        self.df = pd.read_csv("videos_filtered_zeroshot.csv").drop(columns = ["video_id", "clim_change" ,"glob_warm","carb_emis","green_en_policies","fos_fu_ind","clim_activ","env_regul","clim_polic_debate","renew_en_trans","carb_tax"])
+        self.text = self.df["chunks_punctuation"].astype(str).tolist()
+        self.model = SentenceTransformer("all-MiniLM-L6-v2")
+
+    def embed_chunks(self):
+        return self.model.encode(self.text, show_progress_bar = True, convert_to_numpy = True).astype(float)
+
+    def append_embeddings(self):
+        embeddings = self.embed_chunks()
+        self.df["embedding"] = [emb.tolist() for emb in embeddings]
+        self.df = pd.get_dummies(self.df, columns = ["zeroshot_label"], drop_first = True)
+        self.df = self.df.rename(columns = {"zeroshot_label_believes climate change is exaggerated": "believes_exaggeration"})
+        self.df.to_csv("videos_embedded.csv", index = False)
+
 class StanceClassifier:
     def __init__(self):
         self.df = pd.read_csv("../data/videos_embedded.csv")
