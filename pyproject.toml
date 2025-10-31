@@ -7,6 +7,7 @@ requires-python = ">=3.11"
 dependencies = [
     "bertopic>=0.17.3",
     "deepmultilingualpunctuation>=1.0.1",
+    "detoxify>=0.5.2",
     "dotenv>=0.9.9",
     "gensim>=4.4.0",
     "google-api>=0.1.12",
@@ -14,6 +15,7 @@ dependencies = [
     "hdbscan>=0.8.40",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.7",
+    "networkx>=3.5",
     "nltk>=3.9.2",
     "pandas>=2.3.3",
     "praw>=7.8.1",
