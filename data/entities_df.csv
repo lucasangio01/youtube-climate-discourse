@@ -1,595 +1,587 @@
-entity,label
-ben shapiro,PERSON
-phoenix,GPE
-northeast,LOC
-new york,GPE
-southern florida,LOC
-ben shapiro,PERSON
-ac,ORG
-global,PRODUCT
-ac,ORG
-ac,ORG
-don't-,LOC
-ac,ORG
-revival,PERSON
-millions-,GPE
-florida,GPE
-florida,GPE
-florida,GPE
-florida,GPE
-ben,PERSON
-the middle east,LOC
-phoenix,GPE
-arizona,GPE
-saudi arabia,GPE
-ac,ORG
-ben,PERSON
-ac,ORG
-atlantic ocean,LOC
-atlantic,LOC
-the atlantic ocean,LOC
-atlantic,LOC
-meridian,NORP
-the gulf stream,FAC
-the east coast,LOC
-europe,LOC
-nature communications,ORG
-mark,PERSON
-earth,LOC
-the north atlantic basin,LOC
-uk,GPE
-europe,LOC
-haywire,ORG
-back in time,ORG
-trends,ORG
-the southern ocean,LOC
-north atlantic ocean,LOC
-the southern ocean,LOC
-greenland,GPE
-the north atlantic,LOC
-un,ORG
-michael mann,PERSON
-the university of pennsylvania,ORG
-amac,ORG
-key west florida,LOC
-rome,GPE
-northwestern new york,FAC
-ken klippenstein,PERSON
-earth,LOC
-florida,GPE
-arizona,GPE
-arizona,GPE
-hospital,ORG
-arizona heat wave,ORG
-fahrenheit,ORG
-states,GPE
-corporate america,ORG
-arizona,GPE
-maricopa county,GPE
-arizona,GPE
-lobby,PERSON
-lobby,PERSON
-republican,NORP
-democrats,NORP
-democrats,NORP
-joe,PERSON
-america,GPE
-un,ORG
-gonna change,ORG
-americans,NORP
-jesse,PERSON
-exxon mobil,ORG
-chevron,ORG
-hire,PERSON
-jesse,PERSON
-republican,NORP
-democratic,NORP
-jesse,PERSON
-american,NORP
-us,GPE
-western,NORP
-american,NORP
-acres,PRODUCT
-maui,LOC
-rising,WORK_OF_ART
-rising,WORK_OF_ART
-uk,GPE
-haywire,ORG
-national oceanic and atmospheric administration,ORG
-paris,GPE
-rick spinrad,PERSON
-peter tanz,PERSON
-fdr,PERSON
-us,GPE
-democrats,NORP
-joe manchin,PERSON
-new orleans,GPE
-miami,GPE
-the middle east,LOC
-the middle east,LOC
-kuwait,GPE
-the united arab emirates,GPE
-saudi,NORP
-iraq,GPE
-iran,GPE
-the middle east,LOC
-the middle east,LOC
-this north north atlantic sea,FAC
-north atlantic sea,LOC
-the west coast,LOC
-florida,GPE
-texas,GPE
-florida,GPE
-central america,LOC
-heat,PERSON
-big oil,ORG
-big oil,ORG
-us,GPE
-democrats,NORP
-republicans,NORP
-the us department of justice,ORG
-us,GPE
-american,NORP
-progress,ORG
-big oil,ORG
-democrats,NORP
-republicans,NORP
-big oil,ORG
-bell,ORG
-drop,PERSON
-may,PERSON
-france,GPE
-france,GPE
-us,GPE
-fahrenheit,PERSON
-dome,FAC
-northeast,LOC
-the mid-atlantic,LOC
-el nino,GPE
-frog,ORG
-net zero,ORG
-bell,ORG
-drop,PERSON
-obama,PERSON
-obama,PERSON
-kevin anderson,PERSON
-us,GPE
-paris,GPE
-us,GPE
-us,GPE
-uk,GPE
-japan,GPE
-australia,GPE
-china,GPE
-paris,GPE
-paris,GPE
-the associated press,ORG
-nature,WORK_OF_ART
-pace,ORG
-the persian gulf,LOC
-ill,GPE
-midwest,LOC
-the old guard,ORG
-persian gulf,LOC
-ac,ORG
-ac,ORG
-incredible,PERSON
-earth,LOC
-hurricane sandy,ORG
-lewis,PERSON
-lewis,PERSON
-the united states,GPE
-davidpacmancom,ORG
-the northeast- washington dc,ORG
-new york,GPE
-boston,GPE
-lewis,PERSON
-wingers,ORG
-michael,PERSON
-penn state's,ORG
-earth,LOC
-atlantic,LOC
-lewis,PERSON
-kevin,PERSON
-the national center for atmospheric research,ORG
-northeast,LOC
-lewis,PERSON
-fox news,ORG
-the northern plains,LOC
-congress,ORG
-fox news,ORG
-tricky,ORG
-dunning krueger,PERSON
-dunning krueger,PERSON
-global warming,PERSON
-dunning krueger,PERSON
-unapologetic,ORG
-center,GPE
-dr hugh,PERSON
-the department of public health,ORG
-st george's university,ORG
-grenada,GPE
-grenada,GPE
-david,PERSON
-states,GPE
-caribbean,LOC
-pacific,LOC
-the indian ocean,LOC
-mediterranean,LOC
-united nations,ORG
-david,PERSON
-publications,ORG
-islands,GPE
-paris,GPE
-target,ORG
-herculean,NORP
-nations,ORG
-the solomon islands,LOC
-islands,GPE
-thailand,GPE
-us,GPE
-grenada,GPE
-state,ORG
-rex,PERSON
-the trump administration,ORG
-us,GPE
-emissions,ORG
-china,GPE
-india,GPE
-us,GPE
-china,GPE
-china,GPE
-paris,GPE
-paris,GPE
-us,GPE
-china,GPE
-us,GPE
-david,PERSON
-exxon mobile,ORG
-exon mobile,ORG
-paris,GPE
-paris,GPE
-the united states,GPE
-the united states,GPE
-the united states,GPE
-united states,GPE
-buy,PERSON
-st george's university,ORG
-american university,ORG
-grenada,GPE
-american,NORP
-footprints,LOC
-american,NORP
-co2,PRODUCT
-energy efficiency,ORG
-american,NORP
-paradigm,PRODUCT
-the united states,GPE
-bear,ORG
-florida,GPE
-us,GPE
-irma-,PERSON
-us,GPE
-gabriel,PERSON
-princeton university,ORG
-atlantic,LOC
-pat,PERSON
-sun,ORG
-homo,ORG
-american,NORP
-sun,ORG
-twitter,PERSON
-david,PERSON
-the united states,GPE
-aryan,NORP
-venezuela,GPE
-russia,GPE
-michael,PERSON
-penn state university,ORG
-earth,LOC
-point,ORG
-east coast,LOC
-fahrenheit,GPE
-us,GPE
-fahrenheit,PERSON
-michael,PERSON
-el nino,GPE
-el ninos,ORG
-el nino,ORG
-skeptics,ORG
-earth,LOC
-skeptics,ORG
-arsenal,ORG
-thanksgiving,EVENT
-co2,PRODUCT
-spike,PERSON
-michael,PERSON
-initiative,ORG
-new york state's,GPE
-justified,PERSON
-us,GPE
-trends,PRODUCT
-challenge,ORG
-new york,GPE
-renewables,GPE
-germany,GPE
-germany,GPE
-renewables,GPE
-michael,PERSON
-penn state university,ORG
-al gore's,PERSON
-florida,GPE
-florida,GPE
-earth,LOC
-candace owens,PERSON
-gregory whitestone,PERSON
-earth,LOC
-south africa,GPE
-africa,LOC
-burns,PERSON
-solutions,ORG
-ukraine,GPE
-the arctic ice,LOC
-earth,LOC
-china,GPE
-china,GPE
-heartland,LOC
-pangia,GPE
-earth,LOC
-britain,GPE
-the giant wave,FAC
-new york,GPE
-dennis quaid,PERSON
-jake,NORP
-gyllenhaal,ORG
-santa monica,GPE
-the san fernando valley,FAC
-beach,PERSON
-indana,GPE
-the industrial age,FAC
-rosy,PERSON
-iphone,ORG
-bill gates,PERSON
-bill gates,PERSON
-bernie sanders,PERSON
-bernie sanders,PERSON
-bernie sanders,PERSON
-fidel castro,PERSON
-china,GPE
-li,PERSON
-earth,LOC
-earth,LOC
-earth,LOC
-venice,GPE
-western civilization,ORG
-ebay,ORG
-bob,PERSON
-bob,PERSON
-mit,ORG
-caltech,ORG
-know-,PERSON
-paris,GPE
-accords,ORG
-net zero,ORG
-cloud schwab,PERSON
-william nordhaus,PERSON
-the nobel prize,WORK_OF_ART
-technologies,ORG
-sort,ORG
-the dynamics of the,ORG
-ben,PERSON
-ben,PERSON
-china,GPE
-india,GPE
-china,GPE
-the united states,GPE
-new orleans,GPE
-miami,GPE
-seattle,GPE
-geo-engineering,PRODUCT
-northern european,NORP
-russia,GPE
-sarah palin,PERSON
-bible,WORK_OF_ART
-bible,WORK_OF_ART
-society,ORG
-india,GPE
-coal,PERSON
-american prosperity,ORG
-american,NORP
-asset management,ORG
-vic,PERSON
-tucker,PERSON
-america,GPE
-china,GPE
-the united states,GPE
-esg,ORG
-the trojan horse for global equity,ORG
-joseph,PERSON
-nazi,NORP
-germany,GPE
-al,PERSON
-axiom,GPE
-al gore,PERSON
-al gore,PERSON
-bella,PERSON
-al gore,PERSON
-glacier,NORP
-us,GPE
-europe,LOC
-europe,LOC
-europe,LOC
-america,GPE
-paris,GPE
-america,GPE
-china,GPE
-russia,GPE
-the united states,GPE
-united states,GPE
-clean coal,PERSON
-eagles,GPE
-obama,PERSON
-the united states,GPE
-californians,NORP
-teddy roosevelt,PERSON
-trump,PERSON
-ed,PERSON
-theory,PRODUCT
-american,NORP
-wyoming,GPE
-cheyenne,GPE
-wyoming,GPE
-400s,PRODUCT
-consequence,ORG
-nasa,ORG
-us,GPE
-greening,ORG
-greening,ORG
-patrick moore,PERSON
-the sahara desert,LOC
-lush,PERSON
-lush forest,ORG
-lush,PERSON
-midwest,LOC
-minnesota,GPE
-canada,GPE
-jones,PERSON
-google,ORG
-antarctica,LOC
-leonardo dicaprio,PERSON
-leonardo dicaprio,PERSON
-twitter,PERSON
-co2,PRODUCT
-matthews,PERSON
-cloud,PERSON
-island,GPE
-earth,LOC
-earth,LOC
-steve,PERSON
-earth,LOC
-randall carlson,PERSON
-earth,LOC
-kenny,PERSON
-the weather channel,WORK_OF_ART
-the weather channel,ORG
-the weather channel,ORG
-cnn,ORG
-the democratic party,ORG
-cnn,ORG
-nasa,ORG
-the democrat party,ORG
-the united states,GPE
-england,GPE
-europe,LOC
-central america,LOC
-florida,GPE
-prospectus,ORG
-gore,PERSON
-south america,LOC
-london,GPE
-barclays bank,ORG
-democrats,NORP
-the house select committee,ORG
-senate,ORG
-senate,ORG
-chuck schumer,PERSON
-democrats,NORP
-america,GPE
-democrats,NORP
-nancy,PERSON
-the house select committee,ORG
-america,GPE
-capitol hill,ORG
-america,GPE
-congress,ORG
-america,GPE
-don mckeichen,PERSON
-julia brownlee,ORG
-california,GPE
-illinois,GPE
-california,GPE
-suzanne bonamici,PERSON
-electro,GPE
-escobar of,PERSON
-texas,GPE
-mike levin,PERSON
-joe nagooz,PERSON
-don beyer,PERSON
-debbie dingle,PERSON
-jamie raskin,PERSON
-florida,GPE
-deborah ross,PERSON
-melanie stansberry,PERSON
-congress,ORG
-america,GPE
-the united states of america,GPE
-america,GPE
-sean caston,PERSON
-illinois,GPE
-american,NORP
-american,NORP
-the united states,GPE
-senate,ORG
-the united states,GPE
-congress,ORG
-congress,ORG
-congress,ORG
-mike levin,PERSON
-mike levin,PERSON
-sean caston,PERSON
-washington,GPE
-kathy castro,PERSON
-congress,ORG
-colorado,GPE
-joe negus,PERSON
-sean,NORP
-mike levin,PERSON
-california,GPE
-democrats,NORP
-american,NORP
-american,NORP
-kathy castro,PERSON
-the united states,ORG
-congress,ORG
-colorado,GPE
-american,NORP
-un,ORG
-dan kildy,PERSON
-john larson,PERSON
-earl blumenour,PERSON
-albert camus,PERSON
-america,GPE
-american,NORP
-america,GPE
-americans,NORP
-joe manchin,PERSON
-china,GPE
-america,GPE
-china,GPE
-american,NORP
-americans,NORP
-michigan,GPE
-the united states,GPE
-american,NORP
-know-,PERSON
-florida,GPE
-fema,ORG
-florida,GPE
-america,GPE
-american,NORP
-american,NORP
-american,NORP
-america,GPE
-democrats,NORP
-american,NORP
-the united states,GPE
-american,NORP
-north carolina,GPE
-north carolina,GPE
-south carolina,GPE
-georgia,GPE
-florida,GPE
-american clean energy development,ORG
-wright,PERSON
-carolinas,GPE
-new mexico,GPE
+entity,label,lr_believes_exaggeration
+ben shapiro,PERSON,False
+phoenix,GPE,False
+northeast,LOC,False
+new york,GPE,False
+southern florida,LOC,False
+ben shapiro,PERSON,False
+ac,ORG,False
+global,PRODUCT,False
+ac,ORG,False
+ac,ORG,False
+don't-,LOC,False
+ac,ORG,False
+revival,PERSON,False
+millions-,GPE,False
+florida,GPE,False
+florida,GPE,False
+florida,GPE,False
+florida,GPE,False
+ben,PERSON,False
+the middle east,LOC,False
+phoenix,GPE,False
+arizona,GPE,False
+saudi arabia,GPE,False
+ac,ORG,False
+ben,PERSON,False
+ac,ORG,False
+atlantic ocean,LOC,False
+atlantic,LOC,False
+the atlantic ocean,LOC,False
+atlantic,LOC,False
+meridian,NORP,False
+the east coast,LOC,False
+europe,LOC,False
+nature communications,ORG,False
+mark,PERSON,False
+earth,LOC,False
+the north atlantic basin,LOC,False
+uk,GPE,False
+europe,LOC,False
+haywire,ORG,False
+back in time,ORG,False
+trends,ORG,False
+the southern ocean,LOC,False
+north atlantic ocean,LOC,False
+the southern ocean,LOC,False
+greenland,GPE,False
+the north atlantic,LOC,False
+un,ORG,False
+michael mann,PERSON,False
+the university of pennsylvania,ORG,False
+amac,ORG,False
+key west florida,LOC,False
+rome,GPE,False
+ken klippenstein,PERSON,False
+earth,LOC,False
+florida,GPE,False
+arizona,GPE,False
+arizona,GPE,False
+hospital,ORG,False
+arizona heat wave,ORG,False
+fahrenheit,ORG,False
+states,GPE,False
+corporate america,ORG,False
+arizona,GPE,False
+maricopa county,GPE,False
+arizona,GPE,False
+lobby,PERSON,False
+lobby,PERSON,False
+republican,NORP,False
+democrats,NORP,False
+democrats,NORP,False
+joe,PERSON,False
+america,GPE,False
+un,ORG,False
+gonna change,ORG,False
+americans,NORP,False
+jesse,PERSON,False
+exxon mobil,ORG,False
+chevron,ORG,False
+hire,PERSON,False
+jesse,PERSON,False
+republican,NORP,False
+democratic,NORP,False
+jesse,PERSON,False
+american,NORP,False
+us,GPE,False
+western,NORP,False
+american,NORP,False
+acres,PRODUCT,False
+maui,LOC,False
+rising,WORK_OF_ART,False
+rising,WORK_OF_ART,False
+uk,GPE,False
+haywire,ORG,False
+national oceanic and atmospheric administration,ORG,False
+paris,GPE,False
+rick spinrad,PERSON,False
+peter tanz,PERSON,False
+fdr,PERSON,False
+us,GPE,False
+democrats,NORP,False
+joe manchin,PERSON,False
+new orleans,GPE,False
+miami,GPE,False
+the middle east,LOC,False
+the middle east,LOC,False
+kuwait,GPE,False
+the united arab emirates,GPE,False
+saudi,NORP,False
+iraq,GPE,False
+iran,GPE,False
+the middle east,LOC,False
+the middle east,LOC,False
+north atlantic sea,LOC,False
+the west coast,LOC,False
+florida,GPE,False
+texas,GPE,False
+florida,GPE,False
+central america,LOC,False
+heat,PERSON,False
+big oil,ORG,False
+big oil,ORG,False
+us,GPE,False
+democrats,NORP,False
+republicans,NORP,False
+the us department of justice,ORG,False
+us,GPE,False
+american,NORP,False
+progress,ORG,False
+big oil,ORG,False
+democrats,NORP,False
+republicans,NORP,False
+big oil,ORG,False
+bell,ORG,False
+drop,PERSON,False
+may,PERSON,False
+france,GPE,False
+france,GPE,False
+us,GPE,False
+fahrenheit,PERSON,False
+northeast,LOC,False
+the mid-atlantic,LOC,False
+el nino,GPE,True
+frog,ORG,True
+net zero,ORG,True
+bell,ORG,False
+drop,PERSON,False
+obama,PERSON,False
+obama,PERSON,False
+kevin anderson,PERSON,False
+us,GPE,False
+paris,GPE,False
+us,GPE,False
+us,GPE,False
+uk,GPE,False
+japan,GPE,False
+australia,GPE,False
+china,GPE,False
+paris,GPE,False
+paris,GPE,False
+the associated press,ORG,False
+nature,WORK_OF_ART,False
+pace,ORG,False
+the persian gulf,LOC,False
+ill,GPE,False
+midwest,LOC,False
+the old guard,ORG,False
+persian gulf,LOC,False
+ac,ORG,False
+ac,ORG,False
+incredible,PERSON,False
+earth,LOC,True
+hurricane sandy,ORG,True
+lewis,PERSON,True
+lewis,PERSON,True
+the united states,GPE,True
+davidpacmancom,ORG,False
+the northeast- washington dc,ORG,True
+new york,GPE,True
+boston,GPE,True
+lewis,PERSON,True
+wingers,ORG,True
+michael,PERSON,True
+penn state's,ORG,True
+earth,LOC,True
+atlantic,LOC,True
+lewis,PERSON,True
+kevin,PERSON,True
+the national center for atmospheric research,ORG,True
+northeast,LOC,True
+lewis,PERSON,True
+fox news,ORG,True
+the northern plains,LOC,True
+congress,ORG,True
+fox news,ORG,True
+tricky,ORG,True
+dunning krueger,PERSON,True
+dunning krueger,PERSON,True
+global warming,PERSON,True
+dunning krueger,PERSON,True
+unapologetic,ORG,True
+center,GPE,True
+dr hugh,PERSON,False
+the department of public health,ORG,False
+st george's university,ORG,False
+grenada,GPE,False
+grenada,GPE,False
+david,PERSON,False
+states,GPE,False
+caribbean,LOC,False
+pacific,LOC,False
+the indian ocean,LOC,False
+mediterranean,LOC,False
+united nations,ORG,False
+david,PERSON,False
+publications,ORG,False
+islands,GPE,False
+paris,GPE,False
+target,ORG,False
+herculean,NORP,False
+nations,ORG,False
+the solomon islands,LOC,False
+islands,GPE,False
+thailand,GPE,False
+us,GPE,False
+grenada,GPE,False
+state,ORG,False
+rex,PERSON,False
+the trump administration,ORG,False
+us,GPE,False
+emissions,ORG,False
+china,GPE,False
+india,GPE,False
+us,GPE,False
+china,GPE,False
+china,GPE,False
+paris,GPE,False
+paris,GPE,False
+us,GPE,False
+china,GPE,False
+us,GPE,False
+david,PERSON,False
+exxon mobile,ORG,False
+exon mobile,ORG,False
+paris,GPE,False
+paris,GPE,False
+the united states,GPE,False
+the united states,GPE,False
+the united states,GPE,False
+united states,GPE,False
+buy,PERSON,False
+st george's university,ORG,False
+american university,ORG,False
+grenada,GPE,False
+american,NORP,False
+footprints,LOC,False
+american,NORP,False
+co2,PRODUCT,False
+energy efficiency,ORG,False
+american,NORP,False
+paradigm,PRODUCT,False
+the united states,GPE,False
+bear,ORG,False
+florida,GPE,False
+us,GPE,False
+irma-,PERSON,False
+us,GPE,False
+gabriel,PERSON,False
+princeton university,ORG,False
+atlantic,LOC,False
+pat,PERSON,False
+sun,ORG,False
+homo,ORG,False
+american,NORP,False
+sun,ORG,False
+twitter,PERSON,False
+david,PERSON,False
+the united states,GPE,False
+aryan,NORP,False
+venezuela,GPE,False
+russia,GPE,False
+michael,PERSON,False
+penn state university,ORG,False
+earth,LOC,False
+point,ORG,False
+east coast,LOC,False
+fahrenheit,GPE,False
+us,GPE,False
+fahrenheit,PERSON,False
+michael,PERSON,False
+el nino,GPE,False
+el ninos,ORG,False
+el nino,ORG,False
+skeptics,ORG,False
+earth,LOC,False
+skeptics,ORG,True
+arsenal,ORG,True
+co2,PRODUCT,True
+spike,PERSON,False
+michael,PERSON,False
+initiative,ORG,False
+new york state's,GPE,False
+justified,PERSON,False
+us,GPE,False
+trends,PRODUCT,False
+challenge,ORG,False
+new york,GPE,False
+renewables,GPE,False
+germany,GPE,False
+germany,GPE,False
+renewables,GPE,False
+michael,PERSON,False
+penn state university,ORG,False
+al gore's,PERSON,True
+florida,GPE,False
+florida,GPE,False
+earth,LOC,False
+candace owens,PERSON,False
+gregory whitestone,PERSON,True
+earth,LOC,True
+south africa,GPE,True
+africa,LOC,True
+burns,PERSON,True
+solutions,ORG,True
+ukraine,GPE,True
+the arctic ice,LOC,False
+earth,LOC,False
+china,GPE,False
+china,GPE,False
+heartland,LOC,False
+pangia,GPE,False
+earth,LOC,False
+britain,GPE,False
+new york,GPE,True
+dennis quaid,PERSON,True
+jake,NORP,True
+gyllenhaal,ORG,True
+santa monica,GPE,True
+beach,PERSON,True
+indana,GPE,False
+rosy,PERSON,False
+iphone,ORG,False
+bill gates,PERSON,True
+bill gates,PERSON,True
+bernie sanders,PERSON,True
+bernie sanders,PERSON,False
+bernie sanders,PERSON,False
+fidel castro,PERSON,False
+china,GPE,False
+li,PERSON,True
+earth,LOC,True
+earth,LOC,True
+earth,LOC,True
+venice,GPE,True
+western civilization,ORG,True
+ebay,ORG,True
+bob,PERSON,True
+bob,PERSON,True
+mit,ORG,True
+caltech,ORG,True
+know-,PERSON,True
+paris,GPE,True
+accords,ORG,True
+net zero,ORG,False
+cloud schwab,PERSON,False
+william nordhaus,PERSON,False
+the nobel prize,WORK_OF_ART,False
+technologies,ORG,False
+sort,ORG,False
+the dynamics of the,ORG,False
+ben,PERSON,False
+ben,PERSON,False
+china,GPE,False
+india,GPE,False
+china,GPE,False
+the united states,GPE,False
+new orleans,GPE,False
+miami,GPE,False
+seattle,GPE,False
+geo-engineering,PRODUCT,False
+northern european,NORP,False
+russia,GPE,False
+sarah palin,PERSON,False
+bible,WORK_OF_ART,True
+bible,WORK_OF_ART,True
+society,ORG,True
+india,GPE,True
+coal,PERSON,True
+american prosperity,ORG,True
+american,NORP,True
+asset management,ORG,True
+vic,PERSON,True
+tucker,PERSON,True
+america,GPE,True
+china,GPE,True
+the united states,GPE,True
+esg,ORG,True
+the trojan horse for global equity,ORG,True
+joseph,PERSON,True
+nazi,NORP,True
+germany,GPE,True
+al,PERSON,True
+axiom,GPE,True
+al gore,PERSON,True
+al gore,PERSON,True
+bella,PERSON,True
+al gore,PERSON,True
+glacier,NORP,True
+us,GPE,False
+europe,LOC,False
+europe,LOC,False
+europe,LOC,False
+america,GPE,False
+paris,GPE,False
+america,GPE,False
+china,GPE,False
+russia,GPE,False
+the united states,GPE,False
+united states,GPE,False
+clean coal,PERSON,True
+eagles,GPE,True
+obama,PERSON,True
+the united states,GPE,True
+californians,NORP,True
+teddy roosevelt,PERSON,True
+trump,PERSON,True
+ed,PERSON,True
+theory,PRODUCT,False
+american,NORP,True
+wyoming,GPE,True
+cheyenne,GPE,True
+wyoming,GPE,True
+400s,PRODUCT,True
+consequence,ORG,False
+nasa,ORG,False
+us,GPE,False
+greening,ORG,False
+greening,ORG,True
+patrick moore,PERSON,True
+the sahara desert,LOC,True
+lush,PERSON,True
+lush forest,ORG,True
+lush,PERSON,True
+midwest,LOC,True
+minnesota,GPE,True
+canada,GPE,False
+jones,PERSON,False
+google,ORG,False
+antarctica,LOC,False
+leonardo dicaprio,PERSON,False
+leonardo dicaprio,PERSON,False
+twitter,PERSON,False
+co2,PRODUCT,False
+matthews,PERSON,False
+cloud,PERSON,False
+island,GPE,False
+earth,LOC,False
+earth,LOC,False
+steve,PERSON,False
+earth,LOC,False
+randall carlson,PERSON,True
+earth,LOC,True
+kenny,PERSON,True
+the weather channel,WORK_OF_ART,True
+the weather channel,ORG,True
+the weather channel,ORG,True
+cnn,ORG,True
+the democratic party,ORG,True
+cnn,ORG,True
+nasa,ORG,True
+the democrat party,ORG,True
+the united states,GPE,False
+england,GPE,False
+europe,LOC,False
+central america,LOC,False
+florida,GPE,False
+prospectus,ORG,False
+gore,PERSON,False
+south america,LOC,False
+london,GPE,False
+barclays bank,ORG,False
+democrats,NORP,False
+the house select committee,ORG,False
+senate,ORG,False
+senate,ORG,False
+chuck schumer,PERSON,False
+democrats,NORP,False
+america,GPE,False
+democrats,NORP,False
+nancy,PERSON,False
+the house select committee,ORG,False
+america,GPE,False
+capitol hill,ORG,False
+america,GPE,False
+congress,ORG,False
+america,GPE,False
+don mckeichen,PERSON,False
+julia brownlee,ORG,False
+california,GPE,False
+illinois,GPE,False
+california,GPE,False
+suzanne bonamici,PERSON,False
+electro,GPE,False
+escobar of,PERSON,False
+texas,GPE,False
+mike levin,PERSON,False
+joe nagooz,PERSON,False
+don beyer,PERSON,False
+debbie dingle,PERSON,False
+jamie raskin,PERSON,False
+florida,GPE,False
+deborah ross,PERSON,False
+melanie stansberry,PERSON,False
+congress,ORG,False
+america,GPE,False
+the united states of america,GPE,False
+america,GPE,False
+sean caston,PERSON,False
+illinois,GPE,False
+american,NORP,False
+american,NORP,False
+the united states,GPE,False
+senate,ORG,False
+the united states,GPE,False
+congress,ORG,False
+congress,ORG,False
+congress,ORG,False
+mike levin,PERSON,False
+mike levin,PERSON,False
+sean caston,PERSON,False
+washington,GPE,False
+kathy castro,PERSON,False
+congress,ORG,False
+colorado,GPE,False
+joe negus,PERSON,False
+sean,NORP,False
+mike levin,PERSON,False
+california,GPE,False
+democrats,NORP,False
+american,NORP,False
+american,NORP,False
+kathy castro,PERSON,False
+the united states,ORG,False
+congress,ORG,False
+colorado,GPE,False
+american,NORP,False
+un,ORG,False
+dan kildy,PERSON,False
+john larson,PERSON,False
+earl blumenour,PERSON,False
+albert camus,PERSON,False
+america,GPE,False
+american,NORP,False
+america,GPE,False
+americans,NORP,False
+joe manchin,PERSON,False
+china,GPE,False
+america,GPE,False
+china,GPE,False
+american,NORP,False
+americans,NORP,False
+michigan,GPE,False
+the united states,GPE,False
+american,NORP,False
+know-,PERSON,False
+florida,GPE,False
+fema,ORG,False
+florida,GPE,False
+america,GPE,False
+american,NORP,False
+american,NORP,False
+american,NORP,False
+america,GPE,False
+democrats,NORP,False
+american,NORP,False
+the united states,GPE,False
+american,NORP,False
+north carolina,GPE,False
+north carolina,GPE,False
+south carolina,GPE,False
+georgia,GPE,False
+florida,GPE,False
+american clean energy development,ORG,False
+wright,PERSON,False
+carolinas,GPE,False
+new mexico,GPE,False

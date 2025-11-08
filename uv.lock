@@ -1891,6 +1891,7 @@ dependencies = [
     { name = "praw" },
     { name = "sentence-transformers" },
     { name = "spacy" },
+    { name = "tqdm" },
     { name = "umap" },
     { name = "youtube-transcript-api" },
 ]
@@ -1914,6 +1915,7 @@ requires-dist = [
     { name = "praw", specifier = ">=7.8.1" },
     { name = "sentence-transformers", specifier = ">=5.1.1" },
     { name = "spacy", specifier = ">=3.8.7" },
+    { name = "tqdm", specifier = ">=4.67.1" },
     { name = "umap", specifier = ">=0.1.1" },
     { name = "youtube-transcript-api", specifier = ">=1.2.3" },
 ]

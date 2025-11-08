@@ -7,9 +7,12 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
 
+# THIS MODEL HAS NOT BEEN USED
+
+
 class TopicModeling:
     def __init__(self):
-        self.df = pd.read_csv("videos_embedded.csv")
+        self.df = pd.read_csv("../data/videos_embedded.csv")
         self.text = self.df["chunks_punctuation"].tolist()
         self.embeddings = np.vstack(self.df["embedding"].apply(ast.literal_eval).values)
         self.wl = WordNetLemmatizer()

@@ -20,8 +20,7 @@ class Clustering:
         self.hdbscan_labels = self.hdbscan_clusterer.fit_predict(self.embeddings_umap)
 
     def plot_kmeans(self):
-        k = 2
-        kmeans = KMeans(n_clusters=k, max_iter = 100, n_init = 1)
+        kmeans = KMeans(n_clusters = 2, max_iter = 100, n_init = 1)
         kmeans_labels = kmeans.fit_predict(self.embeddings_umap)
         plt.figure(figsize = (10, 7))
         plt.scatter(self.embeddings_umap[:, 0], self.embeddings_umap[:, 1], c = kmeans_labels, s = 10, alpha = 0.8, cmap = "Paired")
@@ -39,16 +38,15 @@ class Clustering:
 class ChannelSimilarity:
     def __init__(self):
         self.videos_classified = pd.read_csv("../data/videos_classified.csv")
+        self.channel_embeddings = self.videos_classified.groupby(["channel", "ideology"])["embedding"].apply(lambda embeddings: np.mean(np.vstack(embeddings.values), axis=0)).reset_index()
 
     def compute_cosine_similarity(self):
-        channel_embeddings = (self.videos_classified.groupby(["channel", "ideology"])["embedding"].apply(lambda embeddings: np.mean(np.vstack(embeddings.values), axis=0)).reset_index())
         results = []
-        for i, j in combinations(range(len(channel_embeddings)), 2):
-            vec_i = channel_embeddings.loc[i, "embedding"]
-            vec_j = channel_embeddings.loc[j, "embedding"]
+        for i, j in combinations(range(len(self.channel_embeddings)), 2):
+            vec_i = self.channel_embeddings.loc[i, "embedding"]
+            vec_j = self.channel_embeddings.loc[j, "embedding"]
             cos_sim = np.dot(vec_i, vec_j)
-            results.append({"channel1": channel_embeddings.loc[i, "channel"], "channel2": channel_embeddings.loc[j, "channel"], "cosine_similarity": cos_sim})
-
+            results.append({"channel1": self.channel_embeddings.loc[i, "channel"], "channel2": self.channel_embeddings.loc[j, "channel"], "cosine_similarity": cos_sim})
         self.channels_similarity_df = pd.DataFrame(results).sort_values("cosine_similarity", ascending=False).reset_index(drop=True)
 
     def visualize_graph(self):

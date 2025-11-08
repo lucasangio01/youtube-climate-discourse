@@ -14,13 +14,10 @@ class CreateEmbeddings:
     def __init__(self):
         self.videos_zeroshot = pd.read_csv("../data/videos_final_zeroshot.csv").drop(columns = ["video_id", "clim_change" ,"glob_warm","carb_emis","green_en_policies","fos_fu_ind","clim_activ","env_regul","clim_polic_debate","renew_en_trans","carb_tax", "text_toxicity"])
         self.text = self.videos_zeroshot["chunks_punctuation"].astype(str).tolist()
-        self.model = SentenceTransformer("all-MiniLM-L6-v2")
-
-    def embed_chunks(self):
-        return self.model.encode(self.text, show_progress_bar = True, convert_to_numpy = True).astype(float)
+        self.embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
     def append_embeddings(self):
-        embeddings = self.embed_chunks()
+        embeddings = self.embedding_model.encode(self.text, show_progress_bar = True, convert_to_numpy = True).astype(float)
         self.videos_zeroshot["embedding"] = [json.dumps(emb.tolist()) for emb in embeddings]
         self.videos_zeroshot = pd.get_dummies(self.videos_zeroshot, columns = ["zeroshot_label"], drop_first = True)
         self.videos_zeroshot = self.videos_zeroshot.rename(columns = {"zeroshot_label_believes climate change is exaggerated": "zeroshot_believes_exaggeration"})
@@ -57,7 +54,7 @@ class StanceClassifier:
         print(classification_report(self.y, y_pred_full))
 
         self.videos_embedded["embedding"] = self.videos_embedded["embedding"].apply(lambda x: json.dumps(x.tolist()))
-        self.videos_embedded.to_csv("videos_classified_test.csv", index = False)
+        self.videos_embedded.to_csv("../data/videos_classified.csv", index = False)
 
     def lime_explanations_to_csv(self):
         lime_embedder = SentenceTransformer("all-MiniLM-L6-v2")
