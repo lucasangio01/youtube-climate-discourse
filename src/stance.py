@@ -50,8 +50,6 @@ class StanceClassifier:
         self.final_model.fit(self.X, self.y)
         y_pred_full = self.final_model.predict(self.X)
         self.videos_embedded["lr_believes_exaggeration"] = y_pred_full
-        print("Full-dataset report:\n")
-        print(classification_report(self.y, y_pred_full))
 
         self.videos_embedded["embedding"] = self.videos_embedded["embedding"].apply(lambda x: json.dumps(x.tolist()))
         self.videos_embedded.to_csv("../data/videos_classified.csv", index = False)
