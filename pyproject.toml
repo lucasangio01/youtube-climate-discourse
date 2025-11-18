@@ -5,7 +5,6 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "bertopic>=0.17.3",
     "deepmultilingualpunctuation>=1.0.1",
     "detoxify>=0.5.2",
     "dotenv>=0.9.9",
@@ -19,7 +18,6 @@ dependencies = [
     "networkx>=3.5",
     "nltk>=3.9.2",
     "pandas>=2.3.3",
-    "praw>=7.8.1",
     "sentence-transformers>=5.1.1",
     "spacy>=3.8.7",
     "tqdm>=4.67.1",
